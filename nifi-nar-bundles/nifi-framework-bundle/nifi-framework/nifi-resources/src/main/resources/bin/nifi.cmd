@@ -16,7 +16,7 @@ rem    See the License for the specific language governing permissions and
 rem    limitations under the License.
 rem
 
-call %~dp0\nifi-env.cmd
+call %~sdp0\nifi-env.cmd
 
 if exist "%JAVA_HOME%\bin\java.exe" (
   set JAVA_EXE=%JAVA_HOME%\bin\java.exe
